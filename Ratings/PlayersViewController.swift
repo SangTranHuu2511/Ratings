@@ -41,9 +41,25 @@ extension PlayersViewController {
         if indexPath.row % 2 == 0 {
             return CGFloat(60)
         }
-        
         return CGFloat(100)
         
+    }
+    
+    //MARK: IBActions
+    @IBAction func cancelToPlayersViewController(_ segue: UIStoryboardSegue) {
+
+        
+    }
+    
+    @IBAction func savePlayerDetail(_ segue: UIStoryboardSegue) {
+        guard let playerDetailsViewController = segue.source as? PlayerDetailsViewController, let player = playerDetailsViewController.player else {
+            return
+        }
+        players.append(player)
+        let indexPath = IndexPath(row: players.count - 1, section: 0)
+        tableView.insertRows(at: [indexPath], with: .automatic)
+
+    
     }
 
 }

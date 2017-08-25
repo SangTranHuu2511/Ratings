@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841ACD971F4FDDE0006CAEE0 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ACD961F4FDDE0006CAEE0 /* PlayerDetailsViewController.swift */; };
+		841ACD991F4FFE1B006CAEE0 /* GamePickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841ACD981F4FFE1B006CAEE0 /* GamePickViewController.swift */; };
+		8435227B1F50A7F40096C2C8 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843522791F50A7F40096C2C8 /* Player.storyboard */; };
 		84AAABB31F4AAFA300D3F42C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAABB21F4AAFA300D3F42C /* AppDelegate.swift */; };
 		84AAABB51F4AAFA300D3F42C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAABB41F4AAFA300D3F42C /* ViewController.swift */; };
 		84AAABB81F4AAFA300D3F42C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AAABB61F4AAFA300D3F42C /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841ACD961F4FDDE0006CAEE0 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerDetailsViewController.swift; path = ../PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		841ACD981F4FFE1B006CAEE0 /* GamePickViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickViewController.swift; sourceTree = "<group>"; };
+		8435227A1F50A7F40096C2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Player.storyboard; sourceTree = "<group>"; };
 		84AAABAF1F4AAFA300D3F42C /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AAABB21F4AAFA300D3F42C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AAABB41F4AAFA300D3F42C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +71,9 @@
 				84AAABB21F4AAFA300D3F42C /* AppDelegate.swift */,
 				84AAABB41F4AAFA300D3F42C /* ViewController.swift */,
 				84AAABB61F4AAFA300D3F42C /* Main.storyboard */,
+				843522791F50A7F40096C2C8 /* Player.storyboard */,
+				841ACD961F4FDDE0006CAEE0 /* PlayerDetailsViewController.swift */,
+				841ACD981F4FFE1B006CAEE0 /* GamePickViewController.swift */,
 				84AAABCA1F4ADD2500D3F42C /* PlayerCell.swift */,
 				84AAABC41F4AC32600D3F42C /* PlayersViewController.swift */,
 				84AAABC61F4AC36600D3F42C /* Player.swift */,
@@ -136,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84AAABBD1F4AAFA300D3F42C /* LaunchScreen.storyboard in Resources */,
+				8435227B1F50A7F40096C2C8 /* Player.storyboard in Resources */,
 				84AAABBA1F4AAFA300D3F42C /* Assets.xcassets in Resources */,
 				84AAABB81F4AAFA300D3F42C /* Main.storyboard in Resources */,
 			);
@@ -151,15 +161,25 @@
 				84AAABCB1F4ADD2500D3F42C /* PlayerCell.swift in Sources */,
 				84AAABC71F4AC36600D3F42C /* Player.swift in Sources */,
 				84AAABB51F4AAFA300D3F42C /* ViewController.swift in Sources */,
+				841ACD971F4FDDE0006CAEE0 /* PlayerDetailsViewController.swift in Sources */,
 				84AAABB31F4AAFA300D3F42C /* AppDelegate.swift in Sources */,
 				84AAABC91F4AC3C000D3F42C /* SampleData.swift in Sources */,
 				84AAABC51F4AC32600D3F42C /* PlayersViewController.swift in Sources */,
+				841ACD991F4FFE1B006CAEE0 /* GamePickViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		843522791F50A7F40096C2C8 /* Player.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8435227A1F50A7F40096C2C8 /* Base */,
+			);
+			name = Player.storyboard;
+			sourceTree = "<group>";
+		};
 		84AAABB61F4AAFA300D3F42C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -317,6 +337,7 @@
 				84AAABC31F4AAFA300D3F42C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
